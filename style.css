@@ -23,7 +23,13 @@
     border-radius: 5px;
     cursor: pointer;
 }
-
+.common-h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: #13105d;
+    margin: 1rem 0;
+    text-align: center;
+}
 
 #header{
     width: 80%;
@@ -44,4 +50,44 @@
 }
 #header #header-banner img{
     width: 80%;
+}
+
+
+#main{
+    width: 80%;
+    margin: 2rem auto;
+}
+#main #my-mission{
+    margin: 6rem 0 4rem 0;
+}
+#main #my-mission #mission-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+#main #mission-container #mission{
+    background-color: #4f9da630;
+}
+#main #mission-container #vission{
+    background-color: #FF595930;
+}
+#main #mission-container #goals{
+    background-color: #FFF4D6;
+}
+#main .mission-card{
+    padding: 2rem;
+    border-radius: 8px;
+}
+#main .mission-card img{
+    width: 40%;
+    height: auto;
+}
+#main .mission-card h4{
+    font-size: 1.8rem;
+    margin: .2rem 0;
+}
+#main .mission-card p{
+    text-align: justify;
 }
