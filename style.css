@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+.common-grey{
+    color: #333333;
+}
+.common-yellow{
+    color: #FFAD5A;
+}
+.common-paragraph{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333333;
+    margin: 1rem 0;
+}
+.common-btn{
+    background-color: #FF5959;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#header{
+    width: 80%;
+    margin: 0 auto;
+}
+#header #header-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+    padding: 20px 0;
+}
+#header #header-banner .banner-h1{
+    font-size: 4rem;
+    color: #333333;
+    border-left: 3px solid #FF0000;
+    padding-left: 1rem;
+}
+#header #header-banner img{
+    width: 80%;
+}
