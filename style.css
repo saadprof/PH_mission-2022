@@ -1,29 +1,29 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.common-grey{
+.common-grey {
     color: #333333;
 }
-.common-yellow{
-    color: #FFAD5A;
+.common-yellow {
+    color: #ffad5a;
 }
-.common-paragraph{
+.common-paragraph {
     font-size: 1.2rem;
     line-height: 1.5;
     color: #333333;
     margin: 1rem 0;
 }
-.common-btn{
-    background-color: #FF5959;
-    color: #FFFFFF;
+.common-btn {
+    background-color: #ff5959;
+    color: #ffffff;
     padding: 10px 20px;
     border: 1px solid transparent;
     border-radius: 5px;
     cursor: pointer;
 }
-.common-h2{
+.common-h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3rem;
     color: #13105d;
@@ -31,63 +31,79 @@
     text-align: center;
 }
 
-#header{
+#header {
     width: 80%;
     margin: 0 auto;
 }
-#header #header-banner{
+#header #header-banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 6rem;
     padding: 20px 0;
 }
-#header #header-banner .banner-h1{
+#header #header-banner .banner-h1 {
     font-size: 4rem;
     color: #333333;
-    border-left: 3px solid #FF0000;
+    border-left: 3px solid #ff0000;
     padding-left: 1rem;
 }
-#header #header-banner img{
+#header #header-banner img {
     width: 80%;
 }
 
-
-#main{
+#main {
     width: 80%;
     margin: 2rem auto;
 }
-#main #my-mission{
+#main #my-mission {
     margin: 6rem 0 4rem 0;
 }
-#main #my-mission #mission-container{
+#main #my-mission #mission-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
     margin: 2rem 0;
 }
-#main #mission-container #mission{
+#main #mission-container #mission {
     background-color: #4f9da630;
 }
-#main #mission-container #vission{
-    background-color: #FF595930;
+#main #mission-container #vission {
+    background-color: #ff595930;
 }
-#main #mission-container #goals{
-    background-color: #FFF4D6;
+#main #mission-container #goals {
+    background-color: #fff4d6;
 }
-#main .mission-card{
+#main .mission-card {
     padding: 2rem;
     border-radius: 8px;
 }
-#main .mission-card img{
+#main .mission-card img {
     width: 40%;
     height: auto;
 }
-#main .mission-card h4{
+#main .mission-card h4 {
     font-size: 1.8rem;
-    margin: .2rem 0;
+    margin: 0.2rem 0;
 }
-#main .mission-card p{
+#main .mission-card p {
     text-align: justify;
+}
+
+#main #second-mission-container {
+    margin: 4rem 0;
+}
+#main #second-mission-container .second-mission {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+#main .second-mission .second-mission-content h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+#main #second-mission-container .second-mission img {
+    width: 30%;
 }
