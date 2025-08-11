@@ -164,3 +164,14 @@
     margin-bottom: 0.4rem;
     font-family: cursive;
 }
+
+
+@media screen and (max-width: 640px){
+    #header #header-banner{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #header #header-banner .banner-h1 {
+        font-size: 2.5rem;
+    }
+}
