@@ -176,4 +176,14 @@
     #main #my-mission #mission-container {
         flex-direction: column;
     }
+
+    #main #second-mission-container .second-mission:last-child{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #main #second-mission-container .second-mission {
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem 0;
+    }
 }
