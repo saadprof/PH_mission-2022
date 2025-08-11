@@ -165,9 +165,8 @@
     font-family: cursive;
 }
 
-
-@media screen and (max-width: 640px){
-    #header #header-banner{
+@media screen and (max-width: 640px) {
+    #header #header-banner {
         flex-direction: column-reverse;
         align-items: center;
         gap: 2rem;
@@ -177,7 +176,7 @@
         flex-direction: column;
     }
 
-    #main #second-mission-container .second-mission:last-child{
+    #main #second-mission-container .second-mission:last-child {
         flex-direction: column-reverse;
         align-items: center;
     }
